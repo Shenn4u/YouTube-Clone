@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <title>YouTube</title>
+
+</head>
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img  class="hamburger-menu" src="./Images/icons/hamburger-menu.svg" >
+      <img class="youtube-logo" src="./Images/icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="./Images/icons/search.svg">
+        <div class="tooltip">Search</div>
+        <!--Creates tooltip : Put position absolute inside position relative-->
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="./Images/icons/voice-search-icon.svg" >
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="./Images/icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      
+      <div class="youtube-apps-icon-cointainer">
+        <img class="youtube-apps-icon" src="./Images/icons/youtube-apps.svg">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+      
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="./Images/icons/notifications.svg">
+        <div class="tooltip">YouTube apps</div>
+        <div class="notifications-count">
+          9
+        </div>
+      </div>
+      <img class="user-image" src="./Images/icons/account-image.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="../Project_YT_clone/Images/icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="../Project_YT_clone/Images/icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="../Project_YT_clone/Images/icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="../Project_YT_clone/Images/icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="../Project_YT_clone/Images/icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="../Project_YT_clone/Images/icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+  
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=U2Qp5pL3ovA&pp=ygULZHVuZSBwYXJ0IDI%3D">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-6.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            2:40
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-6.jpg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Dune: Part Two| Official Trailer
+              </p>
+              <p class="video-author">
+                Warner Bros. Picture
+              </p>
+              <p class="video-stats">
+                14M views &#183; 2 months ago
+              </p>
+            </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=y1TIkfSNbH0&t=24s&pp=ygUJdGhlIHJhY2Ug">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-2.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            10:35
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-2.jpeg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Ranking the 2024 F1 teams after pre-season testing
+              </p>
+              <p class="video-author">
+                THE RACE
+              </p>
+              <p class="video-stats">
+                1.4M views &#183; 2 days ago
+              </p>
+            </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=S5Bl3Fe_gCo&t=75s&pp=ygUbZjEgdGVzdGluZyBkYXkgMyBoaWdobGlnaHRz">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-3.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            3:10
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-3.jpeg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Day 3 Highlights| F1 Pre-Season Testing 2024
+              </p>
+              <p class="video-author">
+                FORMULA 1
+              </p>
+              <p class="video-stats">
+                1.4M views &#183; 4 days ago
+              </p>
+            </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw&pp=ygUZa2FkYW5lJ3MgYWxnb3JpdGhtIOeul-azlQ%3D%3D">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-4.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            11:17
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-4.jpeg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">
+                CS Dojo
+              </p>
+              <p class="video-stats">
+              675K views &#183; 5 years ago
+              </p>
+            </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs&t=154s&pp=ygUzd2hhdCB3b3VsZCBoYXBwZW4gaWYgeW91IGRpZG4ndCBkcmluayB3YXRlciB0ZWQgZWQg">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-5.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            4:52
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-5.jpeg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                What would happen if you didn't drink water? -Mia Nacamulli
+              </p>
+              <p class="video-author">
+                TED-Ed
+              </p>
+              <p class="video-stats">
+                21M views &#183; 7 years ago
+              </p>
+            </div>
+        </div>
+      </div>
+  
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&pp=ygUvVGFsa2luZyBUZWNoICYgQUkgd2l0aCBHb29nbGUgQ0VPIFN1bmRhciBQaWNoYWk%3D">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-1.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            14:20
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-1.jpeg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech & AI with Google CEO Sundar Pichai
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 2 years ago
+              </p>
+            </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=DWKqctHnpBw&pp=ygURdG90YWwgZW52aXJvbm1lbnQ%3D">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-7.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            0:30
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-7.jpg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                In That Quiet Earth | Total Environment
+              </p>
+              <p class="video-author">
+                Total Environment
+              </p>
+              <p class="video-stats">
+                955K views &#183; 3 years ago
+              </p>
+            </div>
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=9Y5wMpKXNK4&pp=ygUPYmFocmFpbiBmMSAyMDI0">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-8.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            7:22
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-3.jpeg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Race Highlights | 2024 Bahrain Grand Prix
+              </p>
+              <p class="video-author">
+                FORMULA 1
+              </p>
+              <p class="video-stats">
+                4.7M views &#183; 2 days ago
+              </p>
+            </div>
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Tuw8hxrFBH8&pp=ygURdGVkeCBiZXN0IHNwZWVjaCA%3D">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-9.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            10:31
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-9.jpg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                One of the Greatest Speeches Ever | Steve Jobs
+              </p>
+              <p class="video-author">
+                Motivation Ark
+              </p>
+              <p class="video-stats">
+                31M views &#183; 3 years ago
+              </p>
+            </div>
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=-M_zfIGLQBU&pp=ygUSYnVpbGRvZnkgaHlkZXJhYmFk">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-10.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            7:12
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-10.jpg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                This Kerala Home is Crafted for family Peace and Serenity(Home Tour)
+              </p>
+              <p class="video-author">
+                Buildofy
+              </p>
+              <p class="video-stats">
+                425K views &#183; 2 months ago
+              </p>
+            </div>
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=zZJi_78XUVg&pp=ygUgY2hyaXN0b3BoZXIgbm9sYW4gY2luZW1hdG9ncmFwaHk%3D">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-11.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            8:43
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-11.jpg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How Christopher Nolan Writes and Directs a Movie | The Director's Chair
+              </p>
+              <p class="video-author">
+                Studio Binder
+              </p>
+              <p class="video-stats">
+                2.5M views &#183; 4 years ago
+              </p>
+            </div>
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=rKtzj_9vl8Q&pp=ygUfbmF0aW9uYWwgZ2VvZ3JhcGhpYyBkb2N1bWVudGFyeQ%3D%3D">
+            <img class="thumbnail" src="./Images/thumbnail/thumbnail-12.webp" alt="Thumbnail Image">
+          </a>
+          <div class="video-time">
+            1:33:00
+          </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="../Project_YT_clone/Images/channel/channel-12.jpg" alt="display picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Flood(Full Episode) | SPECIAL
+              </p>
+              <p class="video-author">
+                National Geography
+              </p>
+              <p class="video-stats">
+                13M views &#183; 11 months ago
+              </p>
+            </div>
+        </div>
+      </div>
+   
+    </section>
+  </main>
+  
+</body>
+</html>
